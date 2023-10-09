@@ -6,48 +6,16 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/nash
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/nash/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
-    vendor/motorola/nash/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
-    vendor/motorola/nash/proprietary/etc/wfdconfig.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfig.xml \
-    vendor/motorola/nash/proprietary/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfigsink.xml \
-    vendor/motorola/nash/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
-    vendor/motorola/nash/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
-    vendor/motorola/nash/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
-    vendor/motorola/nash/proprietary/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
-    vendor/motorola/nash/proprietary/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmparser_lite.so \
-    vendor/motorola/nash/proprietary/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpdecoder.so \
-    vendor/motorola/nash/proprietary/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpencoder.so \
     vendor/motorola/nash/proprietary/lib/libqti-iopd-client_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-iopd-client_system.so \
     vendor/motorola/nash/proprietary/lib/libqti-perfd-client_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-perfd-client_system.so \
     vendor/motorola/nash/proprietary/lib/libqti-util_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-util_system.so \
     vendor/motorola/nash/proprietary/lib/libqti_performance.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti_performance.so \
-    vendor/motorola/nash/proprietary/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdavenhancements.so \
-    vendor/motorola/nash/proprietary/lib/libwfdcodecv4l2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdcodecv4l2.so \
-    vendor/motorola/nash/proprietary/lib/libwfdcommonutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdcommonutils.so \
-    vendor/motorola/nash/proprietary/lib/libwfdconfigutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdconfigutils.so \
-    vendor/motorola/nash/proprietary/lib/libwfdmminterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdmminterface.so \
-    vendor/motorola/nash/proprietary/lib/libwfdmmsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdmmsink.so \
-    vendor/motorola/nash/proprietary/lib/libwfdmmsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdmmsrc.so \
-    vendor/motorola/nash/proprietary/lib/libwfdrtsp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdrtsp.so \
-    vendor/motorola/nash/proprietary/lib/libwfdservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdservice.so \
-    vendor/motorola/nash/proprietary/lib/libwfdsm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdsm.so \
-    vendor/motorola/nash/proprietary/lib/libwfdtalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdtalsa.so \
-    vendor/motorola/nash/proprietary/lib/libwfduibcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcinterface.so \
-    vendor/motorola/nash/proprietary/lib/libwfduibcsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsink.so \
-    vendor/motorola/nash/proprietary/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsinkinterface.so \
-    vendor/motorola/nash/proprietary/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrc.so \
-    vendor/motorola/nash/proprietary/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrcinterface.so \
-    vendor/motorola/nash/proprietary/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
     vendor/motorola/nash/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/motorola/nash/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
-    vendor/motorola/nash/proprietary/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
-    vendor/motorola/nash/proprietary/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmparser_lite.so \
     vendor/motorola/nash/proprietary/lib64/libqti-iopd-client_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti-iopd-client_system.so \
     vendor/motorola/nash/proprietary/lib64/libqti-perfd-client_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti-perfd-client_system.so \
     vendor/motorola/nash/proprietary/lib64/libqti-util_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti-util_system.so \
     vendor/motorola/nash/proprietary/lib64/libqti_performance.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti_performance.so \
-    vendor/motorola/nash/proprietary/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdclient.so \
-    vendor/motorola/nash/proprietary/lib64/libwfdnative.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdnative.so \
     vendor/motorola/nash/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
     vendor/motorola/nash/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
     vendor/motorola/nash/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml \
@@ -158,7 +126,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nash/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/motorola/nash/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/motorola/nash/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
-    vendor/motorola/nash/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
     vendor/motorola/nash/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/motorola/nash/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/motorola/nash/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
@@ -194,7 +161,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nash/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/motorola/nash/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
     vendor/motorola/nash/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
-    vendor/motorola/nash/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/motorola/nash/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/motorola/nash/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
     vendor/motorola/nash/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
@@ -236,8 +202,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nash/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@2.2.so \
     vendor/motorola/nash/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.0.so \
     vendor/motorola/nash/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.1.so \
-    vendor/motorola/nash/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
-    vendor/motorola/nash/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/motorola/nash/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/motorola/nash/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
     vendor/motorola/nash/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
@@ -355,11 +319,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nash/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
     vendor/motorola/nash/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/motorola/nash/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
-    vendor/motorola/nash/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
-    vendor/motorola/nash/proprietary/vendor/lib/libwfdhaldsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhaldsmanager.so \
-    vendor/motorola/nash/proprietary/vendor/lib/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhdcpcp.so \
-    vendor/motorola/nash/proprietary/vendor/lib/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice.so \
-    vendor/motorola/nash/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so \
     vendor/motorola/nash/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/nash/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libadsp_fd_skel.so \
     vendor/motorola/nash/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libadsp_hvx_add_constant.so \
@@ -587,7 +546,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nash/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
     vendor/motorola/nash/proprietary/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so \
     vendor/motorola/nash/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
-    vendor/motorola/nash/proprietary/vendor/lib64/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdhdcpcp.so \
     vendor/motorola/nash/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \
     vendor/motorola/nash/proprietary/vendor/lib64/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwqe.so \
     vendor/motorola/nash/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
@@ -680,14 +638,12 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     libloc_api_v02 \
-    WfdService \
     CneApp \
     TimeService \
     QtiTelephonyService \
     datastatusnotification \
     ims \
     qcrilmsgtunnel \
-    WfdCommon \
     vendor.qti.gnss@3.0-service
 PRODUCT_COPY_FILES += \
     vendor/motorola/nash/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
@@ -726,6 +682,102 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nash/proprietary/lib64/libmodhw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmodhw.so \
     vendor/motorola/nash/proprietary/lib64/libvibratorhw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvibratorhw.so \
     vendor/motorola/nash/proprietary/lib64/motorola.hardware.vibrator@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/motorola.hardware.vibrator@1.0.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libBulkSNPE.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libBulkSNPE.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libDepthBokehEffect.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libDepthBokehEffect.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libFNVfbEngineHAL.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libFNVfbEngineHAL.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libMobileOcrEngine.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libMobileOcrEngine.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libMotDoF.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libMotDoF.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libPlatformValidatorShared.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libPlatformValidatorShared.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libSNPE.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libSNPE.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libSNPE_G.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libSNPE_G.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libalg-common.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libalg-common.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libarcsoft_agegender_estimation.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libarcsoft_agegender_estimation.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libarcsoft_beautyshot.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libarcsoft_dualcam_refocus.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libas-agegender.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libas-agegender.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libas-beauty.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libas-beauty.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libas-depth.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libas-depth.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libas-supernight.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libas-supernight.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libbacktrace.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libbacktrace.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libbase.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libbg-postproc-jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libbg-postproc-jni.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libbg-postproc.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libbg-postproc.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libbs-depth-rt.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libbs-depth-rt.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libbs-depth.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libbs-depth.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libc++.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libc++.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libc++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libc++_shared.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libcalculator.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libcalculator.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libcalculator_domains.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libcalculator_domains.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libclearsight.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libclearsight.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libcutils.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libcutils.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libdualcameraddm.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libdualcameraddm.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libfn-beauty.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libfn-beauty.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libfoundation.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libfoundation.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libfp-relighting-intf.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libfp-relighting-intf.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libfp-relighting.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libfp-relighting.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libfp-scenedetect.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libfp-scenedetect.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libgif.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libgif.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libjni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libjni.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libjpeg.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/liblenovo_panorama.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/liblenovo_panorama.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/liblzma.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/liblzma.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmcf-base.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmcf-base.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmcf-common.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmcf-common.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmcf-jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmcf-jni.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmcf.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmcf.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmorpho_cinema_graph.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmorpho_cinema_graph.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmorpho_defocusface.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmorpho_defocusface.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmorpho_easy_hdr.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmorpho_easy_hdr.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmorpho_image_stab5.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmorpho_image_stab5.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmorpho_image_stabilizer4.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmorpho_image_stabilizer4.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmorpho_panorama_gp3.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmorpho_panorama_gp3.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmorpho_sensor_fusion.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmorpho_sensor_fusion.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmorpho_super_resolution.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmorpho_super_resolution.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmp-depth.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmp-depth.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmp-dis-v4.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmp-dis-v4.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmp-dis-v5.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmp-dis-v5.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmp-dis.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmp-dis.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmp-hdr.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmp-hdr.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmp-refiner.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmp-refiner.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmp-superres.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmp-superres.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmpbase.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmt-bestshot-video.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-bestshot-video.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmt-bestshot.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-bestshot.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmt-bgFaceAnalysis.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-bgFaceAnalysis.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmt-blur.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-blur.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmt-composition.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-composition.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmt-depth.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-depth.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmt-drsd.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-drsd.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmt-flasheyes.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-flasheyes.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmt-framestat.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-framestat.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmt-imagerefiner.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-imagerefiner.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmt-motion.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-motion.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmt-selectivecolor.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-selectivecolor.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libmt-watermark.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-watermark.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libopenssh.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libopenssh.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libqc-clearsight-intf.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libqc-clearsight-intf.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libqc-clearsight.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libqc-clearsight.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libqc-depth-intf.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libqc-depth-intf.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libqc-depth.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libqc-depth.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libqc-facedetect.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libqc-facedetect.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libqc-focus-intf.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libqc-focus-intf.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libqc-focus.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libqc-focus.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libqc-snpe.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libqc-snpe.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libremosaic_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libremosaic_wrapper.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libremosaiclib.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libremosaiclib.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libsnpe_adsp.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libsnpe_adsp.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libsnpe_dsp_domains.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libsnpe_dsp_domains.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libsnpe_dsp_domains_system.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libsnpe_dsp_domains_system.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libsnpe_dsp_domains_v2.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libsnpe_dsp_domains_v2.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libsnpe_dsp_domains_v2_system.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libsnpe_dsp_domains_v2_system.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libss-aicamera.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libss-aicamera.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libsymphony-cpu.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libsymphony-cpu.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libsymphonypower.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libsymphonypower.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libunwind.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libunwind.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libutils.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libutils.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libyuv.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libyuv.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libzx-barcode.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libzx-barcode.so \
+    vendor/motorola/nash/proprietary/priv-app/MotCamera2/lib/arm64/libzxing-core.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libzxing-core.so \
     vendor/motorola/nash/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/nash/proprietary/vendor/bin/hw/motorola.hardware.health@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.health@1.0-service \
     vendor/motorola/nash/proprietary/vendor/bin/mods_camd:$(TARGET_COPY_OUT_VENDOR)/bin/mods_camd \
